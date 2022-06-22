@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "email": "joao@mail.com",
+      "password": "$2a$10$/nOxisEmNlo5XxBzvqjIPOoOi6t57bcbR1avrvcYkEyT0X0NGJnou",
+      "nome": "joao",
+      "id": 2
+    },
+    {
+      "email": "marilia@mail.com",
+      "password": "$2a$10$lRh1dysN3TnMANnRDGR2W.98.u8KFhixuXt3Y3MNfrVpKr/.NZtQe",
+      "nome": "marilia",
+      "id": 3
+    },
+    {
+      "email": "patricia@mail.com",
+      "password": "$2a$10$FmeeBGj.Y2CrPiD8pPhuWOzg80/IVeYHBgGAVvzKzLvYKkhf1Oqfe",
+      "nome": "patricia",
+      "id": 4
+    },
+    {
+      "email": "cara@mail.com",
+      "password": "$2a$10$QH4JuzfNPI1StOD3s.zLg.YrnF9kzRo3LmiWkra9LjJH5z7zZ2F1.",
+      "nome": "cara",
+      "id": 5
+    },
+    {
+      "email": "alberto@mail.com",
+      "password": "$2a$10$8lHeNqmUtRDwvP6w.zwLqeUEK.sLW8FnTSWrTB/pw.W3Gl8hZ8Yv.",
+      "nome": "alberto",
+      "id": 6
+    },
+    {
+      "email": "cristina@mail.com",
+      "password": "$2a$10$ddvP/8xa53KfqilJcqMT3e.im4F5fmynft2xkckBUWx/S4w1INVxK",
+      "nome": "cristina",
+      "id": 7
+    },
+    {
+      "email": "antonio@mail.com",
+      "password": "$2a$10$0ooHTT.6c9stOUF5xbjcB.K9EaZmlrZDC88R14WmYqH.ZcBW7IYjK",
+      "nome": "antonio",
+      "id": 8
+    },
+    {
+      "email": "ademar@mail.com",
+      "password": "$2a$10$ofWc8CF3BH3LpQ.lxALcOuSTgeR/MMedA6YATZLzegEMTkTVvoM66",
+      "nome": "ademar",
+      "id": 9
+    },
+    {
+      "email": "adriane@mail.com",
+      "password": "$2a$10$AHiHPVNw6D3YRl8y2HN8Vu.keHQnvX98UX0ZcvgkdfyE5W1XLFoDi",
+      "nome": "adriane",
+      "id": 10
+    },
+    {
+      "email": "fernanda@mail.com",
+      "password": "$2a$10$WquDhTcglFJ4B5vv/MpPVOqE2S9LZ9VmzTzozIdgOcnosAXCsmovy",
+      "nome": "fernanda",
+      "id": 11
+    }
+  ],
+  "noticias": [
+    {
+      "id": 1,
+      "imagem": "",
+      "titulo": "Teste1",
+      "descricao": "Testando o json1"
+    },
+    {
+      "id": 2,
+      "imagem": "",
+      "titulo": "Cadeira Gamer",
+      "descricao": "Cadeira Gamer - ergonomia específica para partidas longas "
+    },
+    {
+      "id": 3,
+      "imagem": "",
+      "titulo": "Console para Jogos",
+      "descricao": "Console para jogadores com alta performance"
+    },
+    {
+      "id": 4,
+      "imagem": "",
+      "titulo": "Placa de Vídeo",
+      "descricao": "Placa de Vídeo - alta capacidade de processamento"
+    },
+    {
+      "id": 5,
+      "imagem": "",
+      "titulo": "Chip",
+      "descricao": "Processador - alta capacidade de processamento"
+    },
+    {
+      "id": 6,
+      "imagem": "",
+      "titulo": "Notebook",
+      "descricao": "Notebook para jogos e trabalho"
+    },
+    {
+      "id": 7,
+      "imagem": "",
+      "titulo": "SmarthPhone",
+      "descricao": "SmarthPhone alta capacidade de armazenamento (5G)"
+    }
+  ]
+}

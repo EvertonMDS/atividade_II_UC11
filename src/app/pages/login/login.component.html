@@ -1,0 +1,50 @@
+<main>
+  <div class="container-fluid">
+    <div class="row align-items-center bg-secondary ">
+      <div class="col">
+
+        <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
+          <!-- Título -->
+          <div class="container-fluid col-12">
+            <h2>Formulário de Login</h2>
+            <br>
+            <!-- Email -->
+            <div class="form-outline mb-4">
+              <div class="campo-label">
+                <label for="email">
+                  <h3>E-mail:</h3>
+                </label>
+                <input type="email" name="email" id="email" placeholder="email..." class="form-control bg-white"
+                  [(ngModel)]="loginModel.email">
+              </div>
+            </div>
+            <br>
+            <!-- Senha -->
+            <div class="form-outline mb-4">
+              <div class="campo-label">
+                <label for="senha">
+                  <h3>Senha:</h3>
+                </label>
+                <input type="password" name="password" id="password" placeholder="senha..."
+                  class="form-control bg-white" [(ngModel)]="loginModel.password">
+              </div>
+            </div>
+
+            <br>
+            <!-- Botão Fazer Login -->
+            <div class="form-outline mb-4">
+              <input id="botao-enviar" type="submit" class="btn btn-primary btn-block mb-4 bg-primary"
+                value="Fazer Login">
+            </div>
+
+            <br>
+
+          </div>
+        </form>
+        <div class="form-outline mb-4">
+          <p id="mensagem" *ngIf=" mensagem != ''"> {{ mensagem}} </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
